@@ -1,0 +1,35 @@
+﻿# Core
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.30.0
+datasets>=2.11.0
+sentencepiece
+huggingface-hub
+pytorch-lightning>=2.0.0
+
+# ASR / Whisper
+openai-whisper
+
+# Audio processing
+librosa
+soundfile
+webrtcvad
+scipy
+numpy
+sounddevice
+
+# Vision (optional)
+opencv-python
+mediapipe
+facenet-pytorch
+
+# TTS (Coqui TTS - basic bench)
+TTS
+
+# Utilities & dev
+python-dotenv
+matplotlib
+scikit-learn
+
+# Frontend for quick prototyping
+gradio
